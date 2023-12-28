@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <remote name="fb"
+          fetch="https://github.com/FebriCahyaa" />
+
+      <remote name="nx"
+          fetch="https://github.com/projects-nexus" />
+     
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="fb" revision="13" />
+      
+  <project path="vendor/xiaomi/lavender" name="Android_vendor_xiaomi_lavender_13" remote="fb" revision="13" />
+
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nx" revision="13-NKSU" />
+      
+ <!-- <project path="prebuilts/clang/host/linux-x86/nexus-clang" name="nexus-clang" remote="clang" clone-depth="1" revision="nexus-14" /> -->
+      
+</manifest>
