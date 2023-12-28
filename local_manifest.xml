@@ -6,10 +6,13 @@
 
       <remote name="nxs"
           fetch="https://github.com/projects-nexus" />
+
+      <remote name="sup"
+          fetch="https://github.com/SuperiorOS-Devices" />
      
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="xxx" revision="13" />
       
-  <project path="vendor/xiaomi/lavender" name="Android_vendor_xiaomi_lavender_13" remote="xxx" revision="13" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sup" revision="thirteen" />
 
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nxs" revision="13-NKSU" />
       
