@@ -7,7 +7,7 @@
       <remote name="nxs"
           fetch="https://github.com/projects-nexus" />
      
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="xxx" revision="SupExt" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="xxx" revision="afterlife" />
       
   <project path="vendor/xiaomi/lavender" name="Android_vendor_xiaomi_lavender_13" remote="xxx" revision="thirteen" />
 
